@@ -1,0 +1,3 @@
+// the configured options and settings for SpecularAA
+#define specularAA_VERSION_MAJOR @specularAA_VERSION_MAJOR@
+#define specularAA_VERSION_MINOR @specularAA_VERSION_MINOR@
