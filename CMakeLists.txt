@@ -31,10 +31,10 @@ set (GRAPHICS "graphics/shader.h"
               "stb/stb_image.h")
 
 # 生成可执行文件
-add_executable(specularAA specularAA.cpp ${GLAD_GL} ${GRAPHICS})
+add_executable(instance instance.cpp ${GLAD_GL} ${GRAPHICS})
 
 # 版本管理specularConfig.h文件路径
-target_include_directories(specularAA PUBLIC "${PROJECT_BINARY_DIR}" "${PROJECT_SOURCE_DIR}")
+target_include_directories(instance PUBLIC "${PROJECT_BINARY_DIR}" "${PROJECT_SOURCE_DIR}")
 
 # 添加glfw的lib
-target_link_libraries(specularAA glfw ${GLFW_LIBRARIES})
+target_link_libraries(instance glfw ${GLFW_LIBRARIES})
