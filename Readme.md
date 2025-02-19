@@ -1,3 +1,5 @@
-## 编译方法
-1. 创建存放编译文件的文件夹binary_build（文件夹的名字可以任意取）
-2. 在binary_build中执行cmake ../; cmake --build .
+# SpecularAA
+
+This project preprocesses specular texture to reduce the specular aliasing effect using OpenGL.
+
+cd to binary_build and excuate cmake ../; cmake --build .
